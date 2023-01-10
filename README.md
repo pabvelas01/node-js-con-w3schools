@@ -11,7 +11,7 @@
   ´
 
 ### luego se llama desde el modulo principal en nuevo js
-´
+<code>
 var http = require('http');
 var dt = require('./myfirstmodule');
 
@@ -20,4 +20,5 @@ http.createServer(function (req, res) {
   res.write("The date and time are currently: " + dt.myDateTime() + " | "+dt.myStrSaludo);
   res.end();
 }).listen(8081);
-  ´
+  
+  </code>
