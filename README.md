@@ -3,12 +3,12 @@
 
 
 ### Para exportar un modulo se crea el js 
-´exports.myDateTime = function () {
+```exports.myDateTime = function () {
     return Date();
   };
 
   exports.myStrSaludo = "Hola";
-  ´
+  ```
 
 ### luego se llama desde el modulo principal en nuevo js
 <code>
