@@ -3,7 +3,8 @@
 
 
 ### Para exportar un modulo se crea el js 
-```exports.myDateTime = function () {
+```
+exports.myDateTime = function () {
     return Date();
   };
 
@@ -11,7 +12,7 @@
   ```
 
 ### luego se llama desde el modulo principal en nuevo js
-<code>
+```
 var http = require('http');
 var dt = require('./myfirstmodule');
 
@@ -21,4 +22,4 @@ http.createServer(function (req, res) {
   res.end();
 }).listen(8081);
   
-  </code>
+```
